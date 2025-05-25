@@ -34,7 +34,7 @@ uv sync
 Then connect to the virtual environment to notebook kernel and run [data_analysis.ipynb](meteo_api/data_analysis.ipynb) sequentially.
 
 # Project structure
-
+```
 ├── README.md                          # Project documentation
 ├── pyproject.toml                     # Python project configuration and dependencies
 ├── .gitignore                         # Git ignore rules
@@ -43,3 +43,4 @@ Then connect to the virtual environment to notebook kernel and run [data_analysi
     ├── __init__.py                    # Package initialization
     ├── meteo_client.py                # Meteorological API client
     └── data_analysis.ipynb            # Jupyter notebook for data analysis
+```
